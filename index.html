@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Acme Solutions | Empowering Your Business</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Acme<span>Solutions</span></div>
+
+      <!-- Mobile Menu Toggle -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+        ☰
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Grow Your Business with <span>Acme Solutions</span></h1>
+        <p>
+          We help startups and enterprises build scalable digital products,
+          optimize operations, and delight customers.
+        </p>
+        <div class="hero-actions">
+          <a href="services.html" class="btn btn-primary">View Services</a>
+          <button class="btn btn-outline" id="openDemoModal">
+            Watch Demo
+          </button>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <h3>250+</h3>
+            <p>Projects Delivered</p>
+          </div>
+          <div>
+            <h3>120+</h3>
+            <p>Happy Clients</p>
+          </div>
+          <div>
+            <h3>10+</h3>
+            <p>Countries Served</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-card">
+          <h3>Business Performance</h3>
+          <p>+45% growth in 6 months</p>
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+        </div>
+        <div class="hero-card secondary">
+          <h3>Client Satisfaction</h3>
+          <p>4.9 / 5 average rating</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION (GRID) -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Core Services</h2>
+        <p>End-to-end solutions to support your business growth.</p>
+      </div>
+
+      <div class="grid services-grid">
+        <article class="card">
+          <h3>Consulting</h3>
+          <p>
+            Strategy, process optimization, and technology advisory services 
+            tailored to your goals.
+          </p>
+          <a href="services.html#consulting" class="link">Learn more →</a>
+        </article>
+
+        <article class="card">
+          <h3>Software Development</h3>
+          <p>
+            Web, mobile, and cloud solutions built using modern technologies
+            and best practices.
+          </p>
+          <a href="services.html#development" class="link">Learn more →</a>
+        </article>
+
+        <article class="card">
+          <h3>Digital Marketing</h3>
+          <p>
+            SEO, social media, and performance marketing to acquire and 
+            retain customers.
+          </p>
+          <a href="services.html#marketing" class="link">Learn more →</a>
+        </article>
+
+        <article class="card">
+          <h3>Support & Maintenance</h3>
+          <p>
+            Continuous monitoring, updates, and optimization for your 
+            digital products.
+          </p>
+          <a href="services.html#support" class="link">Learn more →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TABS SECTION (INTERACTIVE) -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Work With Us?</h2>
+        <p>Explore the key pillars of our approach.</p>
+      </div>
+
+      <div class="tabs">
+        <div class="tab-buttons">
+          <button class="tab-button active" data-tab="tab1">Expert Team</button>
+          <button class="tab-button" data-tab="tab2">Agile Process</button>
+          <button class="tab-button" data-tab="tab3">Measurable Results</button>
+        </div>
+
+        <div class="tab-content active" id="tab1">
+          <h3>Industry Experts at Your Service</h3>
+          <p>
+            Our consultants, designers, and engineers have experience across
+            multiple industries including finance, retail, and healthcare.
+          </p>
+        </div>
+
+        <div class="tab-content" id="tab2">
+          <h3>Flexible & Transparent Delivery</h3>
+          <p>
+            We use agile methodologies, regular check-ins, and clear
+            communication to keep projects on track and on budget.
+          </p>
+        </div>
+
+        <div class="tab-content" id="tab3">
+          <h3>Data-Driven Decision Making</h3>
+          <p>
+            We define clear KPIs, monitor them closely, and continuously 
+            optimize based on data.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ ACCORDION (INTERACTIVE) -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Frequently Asked Questions</h2>
+      </div>
+
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-header">
+            How long does a typical project take?
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>
+              It depends on the scope, but most projects take between 6–12 weeks
+              from discovery to launch.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            Do you work with startups?
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>
+              Yes, we love working with startups at all stages, from idea
+              validation to scaling established products.
+            </p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            What technologies do you use?
+            <span class="accordion-icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>
+              We use modern stacks including Java, Spring, Node.js, React,
+              Angular, and various cloud platforms.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="section section-cta">
+    <div class="container cta-inner">
+      <div>
+        <h2>Ready to grow your business?</h2>
+        <p>Contact our team and get a free 30-minute consultation.</p>
+      </div>
+      <a href="contact.html" class="btn btn-light">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo">Acme<span>Solutions</span></div>
+        <p>© 2025 Acme Solutions. All rights reserved.</p>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+      <div class="footer-social">
+        <a href="#">LinkedIn</a>
+        <a href="#">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL (DEMO VIDEO POPUP) -->
+  <div class="modal" id="demoModal" aria-hidden="true">
+    <div class="modal-overlay" id="closeDemoModal"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="closeDemoModalBtn">×</button>
+      <h3>Product Demo</h3>
+      <p>This is where you could embed a demo video or slideshow.</p>
+      <!-- Example placeholder -->
+      <div class="modal-placeholder">
+        Demo video / content goes here.
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
